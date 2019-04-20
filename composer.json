@@ -1,0 +1,16 @@
+{
+  "name": "vesica/slim-middlewares",
+  "type": "library",
+  "description": "A library to write to and read from AWS Kinesis",
+  "autoload": {
+    "psr-4": {
+      "Vesica\\Slim\\Middleware\\": "src/"
+    }
+  },
+  "require": {
+    "psr/http-message": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5.3"
+  }
+}
